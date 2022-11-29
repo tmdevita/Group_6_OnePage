@@ -20,7 +20,7 @@
             <div class="inline-block">Events/News</div></a>
             <div class="inline-block">Advocacy</div></a>
             <div class="inline-block">Self Help Resources</div></a>
-            <div class="inline-block">Support/Programs</div></a>
+            <div class="inline-block">Support/Classes</div></a>
             <div class="inline-block">Get Involved</div></a>
             <div class="inline-block">Get Help Now</div></a>
             <div class="inline-block">About Nami</div></a>
@@ -32,8 +32,33 @@
       <input type="text" placeholder="Search..">
     </div>
     <div class="language">
-      <input type="text" placeholder="Select Language">
+      <button onclick="myFunction()" class="dropbtn">Select Language</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#home">English</a>
+        <a href="#about">French</a>
+        <a href="#contact">German</a>
+        <a href="#contact">Spanish</a>
+      </div>
     </div>
+  
+  <script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
 
     <div class="heading">
       <h1>Join Us In Getting Better Together</h1>
@@ -45,146 +70,154 @@
 
   </div>
 
+  <section class="space1">
 
-  <div class="h1">
-    <h1>Our Support & Resources</h1>
-  </div>
+  </section>
 
-  <section class="section1">
-    <div class="card1">
-      <img src="/images/chairs.jpg" height="220px" width="300px">
-      <h3>NAMI Classes</h3>
-      <p>We offers a wide variety of both<br>
+
+  <section class="border1">
+
+    <section class="section1">
+      <div class="h1">
+        <h1>Our Support & Resources</h1>
+      </div>
+      <div class="card1">
+        <img src="/images/chairs.jpg" height="220px" width="290px">
+        <h3>NAMI Classes</h3>
+        <p>We offers a wide variety of both<br>
         in-person classes and online classes. <br>
        To find the class that best fits your needs, <br>
         explore the links below.</p>
-      <button class="learn_more1">Learn More</button>
-    </div>
-    <div class="card2">
-      <img src="/images/people.webp" height="220px" width="300px">
-      <h3>NAMI Support Groups</h3>
-      <p>NAMI Minnesota support groups<br>
+        <button class="learn_more1">Learn More</button>
+      </div>
+      <div class="card2">
+        <img src="/images/people.webp" height="220px" width="290px">
+        <h3>NAMI Support Groups</h3>
+        <p>NAMI Minnesota support groups<br>
         are meeting online,  but some are<br>
         now available in-person.<br>
         Our support group list is updated<br>
         regularly.</p>
-        <button class="learn_more2">Learn More</button>
-    </div>
-    <div class="card3">
-      <img src="/images/therapy_icon.jfif" height="220px" width="300px">
-      <h3>NAMI Resources</h3>
-      <p>Wide range of resources are<br>
+          <button class="learn_more2">Learn More</button>
+      </div>
+      <div class="card3">
+        <img src="/images/therapy_icon.jfif" height="220px" width="290px">
+        <h3>NAMI Resources</h3>
+        <p>Wide range of resources are<br>
         available to you.  Please consider<br>
         the following resources to get<br>
         the help that you need.
-       </p>
-       <button class="learn_more3">Learn More</button>
-    </div>
+        </p>
+        <button class="learn_more3">Learn More</button>
+      </div>
+    </section>
   </section>
 
-  <section class="section2">
-    <div class="card4">
-      <h2>Priority News</h2>
-      <h3>NAMI Minnesota State Conference</h3>
-      <h3>Action Alert Conference Committees</h3>
-      <h3>Get Legislative Updates</h3>
-      <h3>NAMI Minnesota Videos</h3>
-      <h3>BIPOC Resources</h3>
-      <h3>Tardive Dyskinesia</h3>
-    </div>
-    <div class="card5">
-      <img src="/images/image 71.png" height="350px" width="575px">
-    </div>
+  <section class="space2">
+
+  </section>
+
+  <section class="border2">
+    <section class="section2">
+      <div class="card4">
+        <h2>Priority News</h2>
+        <h3>NAMI Minnesota State Conference</h3>
+        <h3>Action Alert Conference Committees</h3>
+        <h3>Get Legislative Updates</h3>
+        <h3>NAMI Minnesota Videos</h3>
+        <h3>BIPOC Resources</h3>
+        <h3>Tardive Dyskinesia</h3>
+      </div>
+      <div class="card5">
+        <img src="/images/image 71.png" height="350px" width="575px">
+      </div>
+    </section>
   </section>
 
 
-  <section class="section3">
-    <div class="card6">
-      <div class="block1">
-        <img src="/images/help_icon.png" height="150px">
-      </div>
-    </div>
-    <div class="card7">
-      <div class="block1">
-        <img src="/images/search_icon.png" height="150px">
-      </div>
-    </div>
-    <div class="card12">
-      <div class="block1">
-        <img src="/images/news_logo.png" height="150px">
-      </div>
-    </div>
-    <h1 class="text1">Give Help</h1>
-    <h1 class="text2">Learn More</h1>
-    <h1 class="text3">More News</h1>
-    <div class="para">
-      <p class="para1">Become a Volunteer<br>
-        Advocate for change<br>
-        Bring Hope - Donate
-      </p>
-      <p class="para2">NAMI MN Publication<br>
-        Request a Presentations<br>
-        Mental Health Library        
-      </p>
-      <p class="para3">Mental-Health Days<br>
-        Are  Only A  Band-Aid<br> 
-        For Burnout<br>       
-      </p>
-    </div>
+  <section class="space3">
+
   </section>
 
-  <section class="section4">
-    <div class="card8">
-      <h2>Contact Us</h2>
+  <section class="border3">
 
-    </div>
-    <!-- <div class="card9">
-      <img src="/images/hands.png" height="250px">
+    <section class="section3">
+      <div class="card6">
+        <div class="block1">
+          <img src="/images/help_icon.png" height="150px">
+        </div>
+        <h1 class="text1">Give Help</h1>
+        <p class="para1">Become a Volunteer<br>
+          Advocate for change<br>
+          Bring Hope - Donate
+        </p>
+      </div>
+      <div class="card7">
+        <div class="block1">
+          <img src="/images/search_icon.png" height="150px">
+        </div>
+        <h1 class="text1">Learn More</h1>
+        <p class="para1">NAMI MN Publication<br>
+          Request a Presentations<br>
+          Mental Health Library        
+        </p>
+      </div>
+      <div class="card12">
+        <div class="block1">
+          <img src="/images/news_logo.png" height="150px">
+        </div>
+        <h1 class="text1">More News</h1>
+        <p class="para1">Mental-Health Days<br>
+          Are  Only A  Band-Aid<br> 
+          For Burnout<br>       
+        </p>
+      </div>
+    </section>
+  </section>
 
-    </div> -->
+  <section class="space4">
+
+  </section>
+
+  <section class="border4">
+
+    <section class="section4">
+      <div class="card8">
+        <h2 class="contact">Contact Us</h2>
+        <p>  Local:  651-645-2948<br>Toll free:  1-888-NAMI-Helps<br>(1-888-626-4435)</p>
+        <p>Helpline: 651-645-2948,<br>Ext.  117Fax:  651-645-7379<br>namihelps@namimn.org</p>
+        <h2 class="help">Suicide Helpline</h2>
+        <h3 class="call">Call or Text 988</h3>
+      </div>
+    </section>
+  </section>
+
+  <section class="space5">
+
   </section>
 
   <footer>
     <div class="footer1"><strong>Contact</strong></div>
-    <div class="footer2">About NAMI</div>
-    <div class="footer3">Get Help Now</div>
-    <div class="footer4">Get Involved</div>
-    <div class="footer5">Support/Programs</div>
-    <div class="footer6">NAMI Minnesota<br>1919 University Ave. W,<br>Suite 400</div>
-    <div class="footer7">Self Help Resources</div>
-    <div class="footer8">Advocacy</div>
-    <div class="footer9">Events/News</div>
-    <div class="footer10">e-Newsletter Sign Up</div>
-    <div class="footer11">St. Paul, MN 55104<br>651-645-2948</div>
-    <div class="footer12">namihelps@namimn.org</div>
-    <img src="/images/logo.png" height="100px">
-
-
-
-    <!-- <div class="card10">
-      <h3><strong>Stay Connected</strong></h3>
-      <p>Join NAMI Minnesota Today!</p>
-      <p>Check us out on social media</p>
-      <img src="/images/facebook.png" height="50px">
-      <img src="/images/twitter.png" height="50px">
-      <h6>Copyright © 2022 NAMI Minnesota.<br>
-        All Rights Reserved.
-      </h6>
-
+    <div class="boxfoot1">
+      <div class="footer2">About NAMI</div>
+      <div class="footer3">Get Help Now</div>
+      <div class="footer4">Get Involved</div>
+      <div class="footer5">Support/Programs</div>
     </div>
-    <div class="card11">
-      <h3>Contact Us</h3>
-      <p>NAMI Minnesota<br>
-        1919 University Ave. W,<br>
-        Suite 400<br>
-        St. Paul, MN 55104<br>
-        651-645-2948<br>
-        namihelps@namimn.org<br>
-        e-Newsletter Sign Up        
-      </p>
-
-    </div> -->
-
+    <div>
+      <p class="footer6">NAMI Minnesota<br>1919 University Ave. W,<br>Suite 400</p>
+      <p class="footer11">St. Paul, MN 55104<br>651-645-2948<br>namihelps@namimn.org</p>
+    </div>
+    <div class="boxfoot2">
+      <div class="footer7">Self Help Resources</div>
+      <div class="footer8">Advocacy</div>
+      <div class="footer9">Events/News</div>
+      <div class="footer10">e-Newsletter Sign Up</div>
+    </div>
+    <img src="/images/logo.png" height="50px">
+    <h3 class="footer12">©2022 Layyyers. All rights reserved.</h3>
+    <img class="face" src="/images/facebook.png" height="50px">
+    <img class="twit" src="/images/twitter.png" height="50px">
   </footer>
 </body>
 </html>
