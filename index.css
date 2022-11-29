@@ -467,7 +467,6 @@ h6 {
 .footer6 {
     text-align: right;
     margin-right: 150px;
-
 }
 
 .footer7 {
@@ -520,4 +519,8 @@ footer img {
 .boxfoot1 {
     display: inline-block;
     margin-top: 50px;
+}
+
+.boxfoot3 {
+    text-align: right;
 }
